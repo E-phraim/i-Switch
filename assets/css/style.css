@@ -51,7 +51,7 @@ header .navbar-expand{
     width: 100%;
     position: fixed;
     /* background-color: rgb(255, 255, 255, 1); */
-    background: linear-gradient(to right, rgb(169, 241, 229, .8), rgb(222, 232, 236, .9));
+    background: linear-gradient(to right, rgb(169, 241, 229, .6), rgb(222, 232, 236, .9));
     box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 0.35);
     animation-name: animationFade;
     animation-duration: 1s;
