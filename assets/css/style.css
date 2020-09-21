@@ -134,7 +134,7 @@ header .navbar .nav-link{
 #banner{
     height: 600px;
     /* background: rgba(164, 222, 245, 0.3); */
-    background: url(/assets/img/IoT-Back.jpg) no-repeat;
+    background: url(assets/img/IoT-Back.jpg) no-repeat;
     background-position-y: -150px;
     background-size: cover;
     object-fit: cover;
