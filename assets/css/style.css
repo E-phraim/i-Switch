@@ -23,7 +23,7 @@ html{
 }
 header .navbar{
     /* height: 70px; */
-    background: rgba(135, 206, 235, .6);
+    background: rgba(135, 206, 235, .3);
 }
 .logo-h1{
     font-size: 30px;
@@ -51,7 +51,7 @@ header .navbar-expand{
     width: 100%;
     position: fixed;
     /* background-color: rgb(255, 255, 255, 1); */
-    background: linear-gradient(to right, rgb(169, 241, 229), rgba(222, 232, 236, .9));
+    background: linear-gradient(to right, rgb(169, 241, 229), rgb(222, 232, 236, .9));
     box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 0.35);
     animation-name: animationFade;
     animation-duration: 1s;
@@ -330,7 +330,7 @@ header .navbar .nav-link{
     font-weight: 600;
 }
 .space{
-    height: 330px;
+    height: 290px;
 }
 .test-box{
     border-radius: 4px;
@@ -585,6 +585,9 @@ header .navbar .nav-link{
     color: purple;
     font-weight: lighter;
 }
+.home{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
 .corporate-h2{
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
@@ -669,7 +672,7 @@ header .navbar .nav-link{
 }
 .chosen{
     /* background-color: midnightblue; */
-    background: url(/assets/img/living\ room\ iot.jpg);
+    background: url(../img/living-room-iot.jpg);
     background-attachment: fixed;
     height: auto;
 }
@@ -1007,11 +1010,11 @@ header .navbar .nav-link{
     background: linear-gradient(to right, skyblue, rgb(9, 253, 213));
 }
 .text-content{
-    height: 120px;
+    height: 150px;
     margin-bottom: 11px;
     padding-top: 9px;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0 2px 6px 0 rgba(155, 155, 155, 0.2), 0 4px 18px 0 rgba(134, 134, 134, 0.19);
 }
 
 .embed-responsive{
