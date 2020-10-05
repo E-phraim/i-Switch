@@ -7,6 +7,11 @@ $(document).ready(function () {
         else {
             $(".navbar").removeClass("sticky");
         }
+        if(sc > 3000){
+            $(".navbar").addClass("none");
+        }else{
+            $(".navbar").removeClass("none");
+        }
     });
 
     if($(".swiper-container").hasClass("team-member-slider")){

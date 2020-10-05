@@ -96,6 +96,9 @@ html{
     animation-duration: 1s;
     animation-fill-mode: both;
 }
+.navbar.none{
+    display: none;
+}
 @keyframes animationFade{
     from{
         opacity: 0;
