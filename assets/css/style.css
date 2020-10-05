@@ -661,7 +661,12 @@ footer{
     border-left: 2px solid white;
     border-right:1px solid #fc3737;
 }
-#signup{
+@media(max-width:690px){
+    .signup1{
+        display: none;
+    }
+}
+    #signup{
     background: linear-gradient(45deg,rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(../img/electricity.jpg);
     /* background: white; */
     background-size: cover;
@@ -740,4 +745,9 @@ footer{
     background-image: linear-gradient(to right, rgb(245, 58, 58, .1), rgba(3, 43, 88, 0.3)),
     url('../img/IoT-Back-cropped.png');
     background-repeat: no-repeat;
+}
+@media(max-width:690px){
+    .i-switch-logo{
+        display: none;
+    }
 }
