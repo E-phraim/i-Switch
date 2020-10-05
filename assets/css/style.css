@@ -615,6 +615,8 @@ html{
 }
 footer{
     background: black;
+    padding-left: 13px;
+    padding-right: 13px;
 }
 .footer-logo{
     border-radius: 50px;
