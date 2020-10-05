@@ -329,6 +329,9 @@ html{
     padding-top: 50px;
     background-color: white;
 }
+#team ul, li{
+    list-style: none;
+}
 #team h5{
     font-size: 1.20rem;
     font-weight: 599;
