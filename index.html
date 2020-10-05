@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>IoT | Internet Of Things</title>
+    <title>i-Switch</title>
 
     <!-- Custom CSS -->
     <link rel="stylesheet" href="assets/css/style.css">
@@ -12,53 +12,55 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="assets/css/bootstrap.css">
 
-    <!-- Font-Awesome CSS -->
+    <!-- Font Awesome CSS -->
     <link rel="stylesheet" href="assets/css/font-awesome.css">
 
-    <!-- Animate On Scroll CSS -->
+    <!-- AOS CSS -->
     <link rel="stylesheet" href="assets/css/aos.css">
 
-    <!-- Owl Carousel CSS Links -->
-    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
-    <link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
-
-    <!-- Favicon -->
-    <link rel="apple-touch-icon" sizes="180x180" href="assets/img/apple-touch-icon.png">
-
-    <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon-32x32.png">
-
-    <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicon-16x16.png">
-
-    <link rel="manifest" href="assets/img/site.webmanifest">
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="assets/css/swiper.min.css">
 </head>
 
 <body>
     <!-- Header Section -->
     <header>
-        <nav class="navbar navbar-expand-lg navbar-light px-2">
+        <nav class="navbar navbar-expand-lg">
             <div class="container">
-                <a class="navbar-brand" href="#">
-                    <h1 class="logo-h1"><span class="logo-i">i</span>Switch</h1>
-                </a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                <a class="navbar-brand" href="index.html">
+                    <img src="assets/img/logo.png" width="40" height="55" class="d-inline-block align-top logo" alt="">
+                </a> <button class="navbar-toggler" type="button" data-toggle="collapse"
                     data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                     aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
 
-                <div class="navbar-collapse collapse" id="navbarSupportedContent">
-                    <ul class="iot-ul navbar-nav ml-auto">
-                        <li class="nav-item active">
-                            <a class="nav-link" href="index.html">Home +<span class="sr-only">(current)</span></a>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto mr-5">
+                        <li class="nav-item active mr-2">
+                            <a class="current nav-link" href="index.html">Home <span
+                                    class="sr-only">(current)</span></a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="about.html">About</a>
+                        <li class="nav-item mr-2">
+                            <a class="nav-link" href="#features">Features</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="contact.html">Contact</a>
+                        <li class="nav-item mr-2">
+                            <a class="nav-link" href="#about">About</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="how-it-works.html">How it works</a>
+                        <li class="nav-item mr-2">
+                            <a class="nav-link" href="#hiw">How it works</a>
+                        </li>
+                        <li class="nav-item mr-2">
+                            <a class="nav-link" href="#team">Team</a>
+                        </li>
+                        <li class="nav-item mr-2">
+                            <a class="nav-link" href="#faq">FAQ</a>
+                        </li>
+                        <li class="nav-item mr-2">
+                            <a class="nav-link" href="#contact">Contact</a>
+                        </li>
+                        <li class="nav-link-btn nav-item mr-2">
+                            <a class="btn" href="sign-up.html">Sign Up</a>
                         </li>
                     </ul>
                 </div>
@@ -68,53 +70,55 @@
     </header>
     <!-- Header Section -->
 
-    <!-- Banner Section -->
-    <section id="banner" class="mb-5">
-        <div class="container">
-            <div class="row align">
-                <div class="col-md-12 justify-content-center text-right">
-                    <div class="text-right ">
-                        <div class="banner-content">
-                            <h4 class="banner-h4">#1 IOT APP FOR MOBILE</h4>
-                            <h1 class="banner-h1">IOT Gives Life</h1>
-                            <h3 class="banner-h3">to the universe.</h3>
 
-                            <div class="mt-4 buttons">
-                                <button class="btn google mr-3 btn-secondary"><i class="fa fa-play-circle-o fa-2x"></i>
-                                    Google Play</button>
-                                <button class="btn ios btn-primary"><i class="fa fa-play-circle-o fa-2x"></i> IOS App
-                                    Store</button>
-                            </div>
-                        </div>
+    <!-- Banner -->
+    <section class="banner">
+        <div class="container h-75">
+            <div class="row align-items-center h-75">
+                <div class="col-md-12 mx-auto text-right">
+                    <div class="banner-content">
+                        <h4 data-aos="zoom-in" class="bc-h4">Experience</h4>
+                        <h3 data-aos="zoom-out" class="bc-h3"><span class="bc-h3-span">Internet </span>of things</h3>
+                        <a href="https://play.google.com">
+                            <button data-aos="fade-right" class="bc-btn">Download Now</button>
+                        </a>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <!-- Banner Section -->
+    <!-- Banner -->
 
-    <!-- Experience Section -->
-    <section id="experience" class="mt-5">
+
+    <!-- Features -->
+    <section class="features" id="features">
         <div class="container">
-            <div class="text-center experience-top-text">
-                <h4 class="experience-h4 mb-4">FEATURES</h4>
-                <h3 class="experience-h3 mb-5">An Amazing App can Change your <br>Daily Life <span
-                        class="iot-experience"> IOT Experience.</span></h3>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="text-center">
+                        <div class="features-content">
+                            <h5 class="fts-h3 text-uppercase">Features</h5>
+                            <p class="fts-p">An Amazing App that changes the view about<br> <span
+                                    class="fts-p-span">Internet</span> of things
+                            </p>
+                        </div>
+                    </div>
+                </div>
             </div>
             <div class="row" style="overflow-x: hidden;overflow-y: hidden;">
                 <div class="col-md-4 d-flex align-items-center">
-                    <div data-aos="fade-left" class="left-side" style="overflow-x: hidden">
+                    <div data-aos="fade-left" class="left-side">
                         <div class="left-side-item">
                             <div class="row">
                                 <div class="col-md-12">
                                     <div class="d-flex">
-                                        <div class="left-icon mr-2">
-                                            <i class="text-center fa fa-lightbulb-o fa-2x"></i>
+                                        <div class="left-icon mt-1 mr-2">
+                                            <i class="text-center fa fa-home fa-2x"></i>
                                         </div>
-
-                                        <div class="left-text">
-                                            <h4 class="mb-0">Create Tasks</h4>
-                                            <p>Create unlimited number of tasks as you want.</p>
+                                        <div class="ml-3 left-text">
+                                            <h4 class="lsi-h4">Your Home</h4>
+                                            <p class="lsi-p">Control your home from wherever you are using i-Switch.
+                                                Totally safe and secure.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -124,12 +128,13 @@
                             <div class="row">
                                 <div class="col-md-12">
                                     <div class="d-flex">
-                                        <div class="left-icon mr-2">
-                                            <i class="text-center fa fa-lightbulb-o fa-2x"></i>
+                                        <div class="left-icon mt-1 mr-2">
+                                            <i class="text-center fa fa-car fa-2x"></i>
                                         </div>
-                                        <div class="left-text">
-                                            <h4 class="mb-0">Sensing</h4>
-                                            <p>Works well with ESPs and WANs, NRFs inclusive.</p>
+                                        <div class="ml-3 left-text">
+                                            <h4 class="lsi-h4">Your Vehicles</h4>
+                                            <p class="lsi-p">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                                Impedit.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -139,13 +144,13 @@
                             <div class="row">
                                 <div class="col-md-12">
                                     <div class="d-flex">
-                                        <div class="left-icon mr-2">
-                                            <i class="text-center fa fa-lightbulb-o fa-2x"></i>
+                                        <div class="left-icon mt-1 mr-2">
+                                            <i class="text-center fa fa-home fa-2x"></i>
                                         </div>
-
-                                        <div class="left-text">
-                                            <h4 class="mb-0">Expressing</h4>
-                                            <p>iSwitch has the ability to interact with all IOT enabled devices.</p>
+                                        <div class="ml-3 left-text">
+                                            <h4 class="lsi-h4">Your Home</h4>
+                                            <p class="lsi-p">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                                Impedit.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -153,22 +158,22 @@
                         </div>
                     </div>
                 </div>
-                <div data-aos="fade-up" class="text-center col-md-4">
-                    <img src="assets/img/Power-Off-2-crop.png" class="img-fluid" alt="">
+                <div data-aos="fade-up" class="text-center mb-3 col-md-4">
+                    <img src="assets/img/replica.png" class="img-fluid" alt="">
                 </div>
                 <div class="col-md-4 d-flex align-items-center">
-                    <div data-aos="fade-right" class="right-side" style="overflow-x: hidden">
+                    <div data-aos="fade-right" class="right-side">
                         <div class="right-side-item">
                             <div class="row">
                                 <div class="col-md-12">
                                     <div class="d-flex">
-                                        <div class="right-icon mr-2">
+                                        <div class="right-icon mt-1 mr-2">
                                             <i class="text-center fa fa-lightbulb-o fa-2x"></i>
                                         </div>
-                                        <div class="right-text">
-                                            <h4 class="mb-0">Connectivity</h4>
-                                            <p>iSwitch's accessibility and compatibility makes the app user-friendly.
-                                            </p>
+                                        <div class="ml-3 left-text">
+                                            <h4 class="lsi-h4">Your Appliances</h4>
+                                            <p class="lsi-p">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                                Impedit.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -178,13 +183,13 @@
                             <div class="row">
                                 <div class="col-md-12">
                                     <div class="d-flex">
-                                        <div class="right-icon mr-2">
-                                            <i class="text-center fa fa-lightbulb-o fa-2x"></i>
+                                        <div class="right-icon mt-1 mr-2">
+                                            <i class="text-center fa fa-home fa-2x"></i>
                                         </div>
-
-                                        <div class="right-text">
-                                            <h4 class="mb-0">Create Tasks</h4>
-                                            <p>Create unlimited number of tasks as you want</p>
+                                        <div class="ml-3 left-text">
+                                            <h4 class="lsi-h4">Your Home</h4>
+                                            <p class="lsi-p">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                                Impedit.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -194,386 +199,571 @@
                             <div class="row">
                                 <div class="col-md-12">
                                     <div class="d-flex">
-                                        <div class="right-icon mr-2">
-                                            <i class="text-center fa fa-lightbulb-o fa-2x"></i>
+                                        <div class="right-icon mt-1 mr-2">
+                                            <i class="text-center fa fa-home fa-2x"></i>
                                         </div>
-                                        <div class="right-text">
-                                            <h4 class="mb-0">Create Tasks</h4>
-                                            <p>Create unlimited number of tasks as you want</p>
+                                        <div class="ml-3 left-text">
+                                            <h4 class="lsi-h4">Your Home</h4>
+                                            <p class="lsi-p">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                                Impedit.</p>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="col-md-12 mt-5 mb-5">
-            <div class="row">
-                <div class="col-md-3 col-6">
-                    <div class="text-center">
-                        <div class="top-num mb-3"><span class="counter">97</span>K</div>
-                        <div class="bottom-text">Downloads</div>
-                    </div>
-                </div>
-                <div class="col-md-3 col-6">
-                    <div class="text-center">
-                        <div class="top-num mb-3"><span class="counter">2000</span></div>
-                        <div class="bottom-text">Premium Members</div>
-                    </div>
-                </div>
-                <div class="col-md-3 col-6">
-                    <div class="text-center">
-                        <div class="top-num mb-3"><span class="counter">500</span></div>
-                        <div class="bottom-text">Client Review</div>
-                    </div>
-                </div>
-                <div class="col-md-3 col-6">
-                    <div class="text-center">
-                        <div class="top-num mb-3"><span class="counter">20</span>K</div>
-                        <div class="bottom-text">Command Library</div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <!-- Experience Section -->
+    <!-- Features -->
 
-    <!-- Operate Section -->
-    <section class="pt-5 pb-5" id="operate">
+    <!-- About -->
+    <section class="about" id="about">
         <div class="container">
             <div class="row">
-                <div data-aos="zoom-in-up" class="img-holder col-md-6 d-flex align-items-center justify-content-center">
-                    <div class="text-left">
-                        <img src="assets/img/iot-internet-things-network-connection_73903-298.jpg" class="img-fluid"
-                            alt="">
+                <div class="col-md-12">
+                    <div class="text-center abt-t-con">
+                        <h5 class="abt-h3 text-uppercase">About</h5>
+                        <p class="abt-p">Lorem ipsum dolor sit amet consectetur.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <div data-aos="zoom-in" class="text-left mr-5">
+                        <img src="assets/img/about.jpg" class="abt-img img-fluid" alt="">
                     </div>
                 </div>
                 <div class="col-md-6 d-flex align-items-center">
                     <div class="text-center">
                         <div class="text-left operate-text mb-5">
-                            <h3>Work and Operate your devices <span class="o-t-span"> while <br>online & offline</span>
-                            </h3>
-                            <p>By connecting objects, people and environments, it becomes possible
+                            <h3 class="op-h3">Control your world with Your Devices.</h3>
+                            <p class="op-p">By connecting objects, people and environments, it becomes possible
                                 to develop improvements that will only be beneficial.
                                 iSwitch covers basic needs all to complex problems.
                             </p>
                         </div>
 
-                        <div class="operate-features text-left mb-4">
-                            <p><i class="mr-3 fa fa-thumbs-o-up"></i>Productivity improvement in the allowance of
+                        <div class="operate-features text-left ml-5">
+                            <p class="op-p"><i class="mr-3 fa fa-thumbs-o-up"></i>Productivity improvement in the
+                                allowance of
                                 control and monitoring all operations.</p>
-                            <p><i class="mr-3 fa fa-thumbs-o-up"></i>Predictive analysis through study of recurring
+                            <p class="op-p"><i class="mr-3 fa fa-thumbs-o-up"></i>Predictive analysis through study of
+                                recurring
                                 patterns for easier use.</p>
-                            <p><i class="mr-3 fa fa-thumbs-o-up"></i>Rapid response to developments from previous
+                            <p class="op-p"><i class="mr-3 fa fa-thumbs-o-up"></i>Rapid response to developments from
+                                previous
                                 accumulated data.</p>
                         </div>
-
-                        <div class="mt-4 buttons text-left">
-                            <button class="btn google mr-3 btn-secondary"><i class="fa fa-play-circle-o fa-2x"></i>
-                                Google Play</button>
-                            <button class="btn ios btn-primary"><i class="fa fa-play-circle-o fa-2x"></i> IOS App
-                                Store</button>
-                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <!-- Operate Section -->
+    <!-- About -->
 
-    <!-- Testimonial Section -->
-    <section id="testimonial" class="mb-4">
+    <!-- How It Works -->
+    <section class="hi-works" id="hiw">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    <div class="text-left">
-                        <div class="testimony-text">
-                            <h5>Testimonial</h5>
-                            <h3>What Users Say & Their IOT <br>Experience.</h3>
-                        </div>
-                    </div>
-                </div>
-                <div class="owl-carousel owl-theme">
-
-                    <div class="item">
-                        <div class="test-box pt-5">
-                            <h4 class="test-h4">Excellent App for Future Generations</h4>
-                            <p class="test-p">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam culpa
-                                aliquid modi beatae harum officiis sequi, deserunt autem aperiam vel.
-                            </p>
-                            <div class="row testifier align-items-center justify-content-around mt-4">
-                                <div class="col-md-3 col-3 passport">
-                                    <img src="assets/img/FullSizeRender-3.jpg" class="mr-2 img-fluid" alt="">
-                                </div>
-                                <div class="col-md-7 col-6 mt-3">
-                                    <h5 class="name-h5">Ephraim Etuk</h5>
-                                    <p class="name-p">Programmer</p>
-                                </div>
-                                <div class="col-md-2 col-2 text-left">
-                                    <i class="fa fa-quote-right fa-2x"></i>
-                                </div>
-                            </div>
-
-                        </div>
-
-                    </div>
-
-                    <div class="item">
-                        <div class="test-box pt-5">
-                            <h4 class="test-h4">Excellent App for Future Generations</h4>
-                            <p class="test-p">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam culpa
-                                aliquid modi beatae harum officiis sequi, deserunt autem aperiam vel.
-                            </p>
-                            <div class="row testifier align-items-center justify-content-around mt-4">
-                                <div class="col-md-3 col-3 passport">
-                                    <img src="assets/img/FullSizeRender-3.jpg" class="mr-2 img-fluid" alt="">
-                                </div>
-                                <div class="col-md-7 col-6 mt-3">
-                                    <h5 class="name-h5">Regina</h5>
-                                    <p class="name-p">Digital Marketer</p>
-                                </div>
-                                <div class="col-md-2 col-2 text-left">
-                                    <i class="fa fa-quote-right fa-2x"></i>
-                                </div>
-                            </div>
-
-                        </div>
-
-                    </div>
-
-                    <div class="item">
-                        <div class="test-box pt-5">
-                            <h4 class="test-h4">Excellent App for Future Generations</h4>
-                            <p class="test-p">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam culpa
-                                aliquid modi beatae harum officiis sequi, deserunt autem aperiam vel.
-                            </p>
-                            <div class="row testifier align-items-center justify-content-around mt-4">
-                                <div class="col-md-3 col-3 passport">
-                                    <img src="assets/img/FullSizeRender-3.jpg" class="mr-2 img-fluid" alt="">
-                                </div>
-                                <div class="col-md-7 col-6 mt-3">
-                                    <h5 class="name-h5">Peace Ikpe</h5>
-                                    <p class="name-p">Digital Marketer</p>
-                                </div>
-                                <div class="col-md-2 col-2 text-left">
-                                    <i class="fa fa-quote-right fa-2x"></i>
-                                </div>
-                            </div>
-
-                        </div>
-
-                    </div>
-
-                    <div class="item">
-                        <div class="test-box pt-5">
-                            <h4 class="test-h4">Excellent App for Future Generations</h4>
-                            <p class="test-p">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam culpa
-                                aliquid modi beatae harum officiis sequi, deserunt autem aperiam vel.
-                            </p>
-                            <div class="row testifier align-items-center justify-content-around mt-4">
-                                <div class="col-md-3 col-3 passport">
-                                    <img src="assets/img/FullSizeRender-3.jpg" class="mr-2 img-fluid" alt="">
-                                </div>
-                                <div class="col-md-7 col-6 mt-3">
-                                    <h5 class="name-h5">Ephraim Etuk</h5>
-                                    <p class="name-p">Programmer</p>
-                                </div>
-                                <div class="col-md-2 col-2 text-left">
-                                    <i class="fa fa-quote-right fa-2x"></i>
-                                </div>
-                            </div>
-
-                        </div>
-
-                    </div>
-
-                    <div class="item">
-                        <div class="test-box pt-5">
-                            <h4 class="test-h4">Excellent App for Future Generations</h4>
-                            <p class="test-p">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam culpa
-                                aliquid modi beatae harum officiis sequi, deserunt autem aperiam vel.
-                            </p>
-                            <div class="row testifier align-items-center justify-content-around mt-4">
-                                <div class="col-md-3 col-3 passport">
-                                    <img src="assets/img/FullSizeRender-3.jpg" class="mr-2 img-fluid" alt="">
-                                </div>
-                                <div class="col-md-7 col-6 mt-3">
-                                    <h5 class="name-h5">Ephraim Etuk</h5>
-                                    <p class="name-p">Programmer</p>
-                                </div>
-                                <div class="col-md-2 col-2 text-left">
-                                    <i class="fa fa-quote-right fa-2x"></i>
-                                </div>
-                            </div>
-
-                        </div>
-
-                    </div>
-
-                    <div class="item">
-                        <div class="test-box pt-5">
-                            <h4 class="test-h4">Excellent App for Future Generations</h4>
-                            <p class="test-p">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam culpa
-                                aliquid modi beatae harum officiis sequi, deserunt autem aperiam vel.
-                            </p>
-                            <div class="row testifier align-items-center justify-content-around mt-4">
-                                <div class="col-md-3 col-3 passport">
-                                    <img src="assets/img/FullSizeRender-3.jpg" class="mr-2 img-fluid" alt="">
-                                </div>
-                                <div class="col-md-7 col-6 mt-3">
-                                    <h5 class="name-h5">Ephraim Etuk</h5>
-                                    <p class="name-p">Programmer</p>
-                                </div>
-                                <div class="col-md-2 col-2 text-left">
-                                    <i class="fa fa-quote-right fa-2x"></i>
-                                </div>
-                            </div>
-
-                        </div>
-
+                    <div class="text-center hiw-t-con">
+                        <h5 class="htc-h4 text-uppercase">How It Works</h5>
+                        <p class="htc-p">A sneek at how the app works</p>
                     </div>
                 </div>
             </div>
-
-        </div>
-
-    </section>
-    <!-- Testimonial Section -->
-
-    <div class="space"></div>
-
-    <!-- Cases Section -->
-    <section id="cases" class="pt-5 mb-5">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="text-center mb-5">
-                        <h4 class="cases-h4">Project Create</h4>
-                        <h2 class="cases-h2">Other Projects & Research</h2>
+            <div class="container-fluid">
+                <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="row align-items-center hiw-items">
+                                <div data-aos="fade-down" class="col-md-5 col-12 left-side-carousel">
+                                    <img src="assets/img/Power-On-2.png" class="img-fluid org-img" alt="">
+                                    <img src="assets/img/Power-On-2-min.png" class="img-fluid img-min" alt="">
+                                </div>
+                                <div class="col-md-7 col-12 mt-5 right-side-carousel">
+                                    <div class="text-center ml-4">
+                                        <h2 class="rtc-h2">Switch On</h2>
+                                        <p class="rtc-p">Press the power button when it signals <span
+                                                class="rtc-blue">BLUE</span> to power on
+                                            appliances.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="row align-items-center hiw-items">
+                                <div class="col-md-7 col-12 mt-5 right-side-carousel">
+                                    <div class="text-center ml-4">
+                                        <h2 class="rtc-h2">Switch Off</h2>
+                                        <p class="rtc-p">Press the power button when it signals <span
+                                                class="rtc-red">RED</span> to power off
+                                            appliances.</p>
+                                    </div>
+                                </div>
+                                <div data-aos="fade-down" class="col-md-5 col-12 left-side-carousel">
+                                    <img src="assets/img/Power-Off-2.png" class="img-fluid org-img" alt="">
+                                    <img src="assets/img/Power-On-2-min.png" class="img-fluid img-min" alt="">
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
+                <!-- <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a> -->
+            </div>
+        </div>
+        </div>
+    </section>
+    <!-- How It Works -->
 
+    <!-- Team -->
+    <section id="team">
+        <div class="container">
+            <br><br><br>
+            <div class="row">
+                <div class="col-md-12">
+                    <h5>An Operose Team</h5>
+                    <h2>Meet Us</h2>
+                    <p class="desc">
+                        Putting together the best team to give the best IOT experience, i-Switch delivers its best to
+                        you.
+                    </p>
+                </div>
             </div>
             <div class="row text-center">
-                <div class="col-md-4 mb-2">
-                    <div class="card">
-                        <img src="assets/img/unlock-door-with-iot.jpg" class="img-fluid card-img-top" alt="...">
-                        <div class="card-body">
-                            <h4 class="cases-h4 mb-2">Unlock Furnitures with APPNAME</h4>
-                            <p class="card-text cases-p mb-3">Some quick example text to build on the card title and
-                                make up the bulk
-                                of the card's content.</p>
+                <div class="col-md-12 col-12">
+                    <div class="swiper-container team-member-slider">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="team-coverflow">
+                                    <div class="team-data-img">
+                                        <div class="team-img">
+                                            <img src="assets/img/ephraim.jpg" class="img-fluid" alt="">
+                                            <div class="team-box-content">
+                                                <ul class="team-social white-bg">
+                                                    <li class="fa fa-facebook"></li>
+                                                    <li class="fa fa-twitter"></li>
+                                                    <li class="fa fa-google"></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="team-text">
+                                        <h4 class="color-black font-weight-normal m-0 text-capitalize">
+                                            Ephraim Codes
+                                            <p class="color-light-gray font-weight-light designation text-capitalize">
+                                            </p>
+                                            Full-Stack Developer
+                                        </h4>
+                                    </div>
+                                    <ul class="team-progress text-left">
+                                        <li class="progress-item">
+                                            <h6>Progress Management
+                                                <span class="float-right">
+                                                    <b class="count">82</b>%
+                                                </span>
+                                            </h6>
+                                            <div class="progress">
+                                                <span class="progress-bar w-82" role="progressbar" aria-valuenow="82"
+                                                    aria-valuemin="0" aria-valuemax="100"></span>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <h6>
+                                                SEO Services
+                                                <span class="float-right">
+                                                    <b class="count">77</b>%
+                                                </span>
+                                            </h6>
+                                            <div class="progress">
+                                                <span class="progress-bar w-77" role="progressbar" aria-valuenow="77"
+                                                    aria-valuemin="0" aria-valuemax="100"></span>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class="swiper-slide">
+                                <div class="team-coverflow">
+                                    <div class="team-data-img">
+                                        <div class="team-img">
+                                            <img src="assets/img/henry-2.jpg" class="img-fluid" alt="">
+                                            <div class="team-box-content">
+                                                <ul class="team-social white-bg">
+                                                    <li class="fa fa-facebook"></li>
+                                                    <li class="fa fa-twitter"></li>
+                                                    <li class="fa fa-google"></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="team-text">
+                                        <h4 class="color-black font-weight-normal m-0 text-capitalize">
+                                            Henry Smiles
+                                            <p class="color-light-gray font-weight-light designation text-capitalize">
+                                            </p>
+                                            Front-End Developer
+                                        </h4>
+                                    </div>
+                                    <ul class="team-progress text-left">
+                                        <li class="progress-item">
+                                            <h6>Progress Management
+                                                <span class="float-right">
+                                                    <b class="count">82</b>%
+                                                </span>
+                                            </h6>
+                                            <div class="progress">
+                                                <span class="progress-bar w-82" role="progressbar" aria-valuenow="82"
+                                                    aria-valuemin="0" aria-valuemax="100"></span>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <h6>
+                                                SEO Services
+                                                <span class="float-right">
+                                                    <b class="count">77</b>%
+                                                </span>
+                                            </h6>
+                                            <div class="progress">
+                                                <span class="progress-bar w-77" role="progressbar" aria-valuenow="77"
+                                                    aria-valuemin="0" aria-valuemax="100"></span>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class="swiper-slide">
+                                <div class="team-coverflow">
+                                    <div class="team-data-img">
+                                        <div class="team-img">
+                                            <img src="assets/img/femi.jpg" class="img-fluid" alt="">
+                                            <div class="team-box-content">
+                                                <ul class="team-social white-bg">
+                                                    <li class="fa fa-facebook"></li>
+                                                    <li class="fa fa-twitter"></li>
+                                                    <li class="fa fa-google"></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="team-text">
+                                        <h4 class="color-black font-weight-normal m-0 text-capitalize">
+                                            Femi Raps
+                                            <p class="color-light-gray font-weight-light designation text-capitalize">
+                                            </p>
+                                            Front-End Developer
+                                        </h4>
+                                    </div>
+                                    <ul class="team-progress text-left">
+                                        <li class="progress-item">
+                                            <h6>Progress Management
+                                                <span class="float-right">
+                                                    <b class="count">82</b>%
+                                                </span>
+                                            </h6>
+                                            <div class="progress">
+                                                <span class="progress-bar w-82" role="progressbar" aria-valuenow="82"
+                                                    aria-valuemin="0" aria-valuemax="100"></span>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <h6>
+                                                SEO Services
+                                                <span class="float-right">
+                                                    <b class="count">77</b>%
+                                                </span>
+                                            </h6>
+                                            <div class="progress">
+                                                <span class="progress-bar w-77" role="progressbar" aria-valuenow="77"
+                                                    aria-valuemin="0" aria-valuemax="100"></span>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class="swiper-slide">
+                                <div class="team-coverflow">
+                                    <div class="team-data-img">
+                                        <div class="team-img">
+                                            <img src="assets/img/comfort.jpeg" class="img-fluid" alt="">
+                                            <div class="team-box-content">
+                                                <ul class="team-social white-bg">
+                                                    <li class="fa fa-facebook"></li>
+                                                    <li class="fa fa-twitter"></li>
+                                                    <li class="fa fa-google"></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="team-text">
+                                        <h4 class="color-black font-weight-normal m-0 text-capitalize">
+                                            Comfort
+                                            <p class="color-light-gray font-weight-light designation text-capitalize">
+                                            </p>
+                                            Digital Marketer/Content Creator
+                                        </h4>
+                                    </div>
+                                    <ul class="team-progress text-left">
+                                        <li class="progress-item">
+                                            <h6>Progress Management
+                                                <span class="float-right">
+                                                    <b class="count">82</b>%
+                                                </span>
+                                            </h6>
+                                            <div class="progress">
+                                                <span class="progress-bar w-82" role="progressbar" aria-valuenow="82"
+                                                    aria-valuemin="0" aria-valuemax="100"></span>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <h6>
+                                                SEO Services
+                                                <span class="float-right">
+                                                    <b class="count">77</b>%
+                                                </span>
+                                            </h6>
+                                            <div class="progress">
+                                                <span class="progress-bar w-77" role="progressbar" aria-valuenow="77"
+                                                    aria-valuemin="0" aria-valuemax="100"></span>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class="swiper-slide">
+                                <div class="team-coverflow">
+                                    <div class="team-data-img">
+                                        <div class="team-img">
+                                            <img src="assets/img/kingsley.jpg" class="img-fluid" alt="">
+                                            <div class="team-box-content">
+                                                <ul class="team-social white-bg">
+                                                    <li class="fa fa-facebook"></li>
+                                                    <li class="fa fa-twitter"></li>
+                                                    <li class="fa fa-google"></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="team-text">
+                                        <h4 class="color-black font-weight-normal m-0 text-capitalize">
+                                            Kingsley
+                                            <p class="color-light-gray font-weight-light designation text-capitalize">
+                                            </p>
+                                            Mobile App Developer
+                                        </h4>
+                                    </div>
+                                    <ul class="team-progress text-left">
+                                        <li class="progress-item">
+                                            <h6>Progress Management
+                                                <span class="float-right">
+                                                    <b class="count">82</b>%
+                                                </span>
+                                            </h6>
+                                            <div class="progress">
+                                                <span class="progress-bar w-82" role="progressbar" aria-valuenow="82"
+                                                    aria-valuemin="0" aria-valuemax="100"></span>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <h6>
+                                                SEO Services
+                                                <span class="float-right">
+                                                    <b class="count">77</b>%
+                                                </span>
+                                            </h6>
+                                            <div class="progress">
+                                                <span class="progress-bar w-77" role="progressbar" aria-valuenow="77"
+                                                    aria-valuemin="0" aria-valuemax="100"></span>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-md-4 mb-2">
-                    <div class="card">
-                        <img src="assets/img/istockphoto-458962911-170667a.jpg" class="img-fluid card-img-top"
-                            alt="...">
-                        <div class="card-body">
-                            <h4 class="cases-h4 mb-2">Save Power with E-Tronics</h4>
-                            <p class="card-text cases-p mb-3">Some quick example text to build on the card title and
-                                make up the bulk
-                                of the card's content.</p>
-                        </div>
+                    <div class="swiper-button-next slider-arrows">
+                        <i class="fa fa-angle-right"></i>
                     </div>
-                </div>
-                <div class="col-md-4 mb-2">
-                    <div class="card">
-                        <img src="assets/img/unlock-door-with-iot.jpg" class="img-fluid card-img-top" alt="...">
-                        <div class="card-body">
-                            <h4 class="cases-h4 mb-2">Unlock Furnitures with APPNAME</h4>
-                            <p class="card-text cases-p mb-3">Some quick example text to build on the card title and
-                                make up the bulk
-                                of the card's content.</p>
-                        </div>
+                    <div class="swiper-button-prev slider-arrows">
+                        <i class="fa fa-angle-left"></i>
                     </div>
                 </div>
             </div>
-
         </div>
     </section>
-    <!-- Cases Section -->
+    <br><br>
+    <!-- Team -->
 
-    <!-- Newsletter Section -->
-    <section id="newsletter">
+    <!-- FAQ -->
+    <section class="faq" id="faq">
         <div class="container">
-            <div class="text-center col-11 col-md-11">
-                <div data-aos="flip-left" class="subscribe w-75 p-3">
-                    <div data-aos="fade-down" class="location-icon mb-3" style="overflow-x: hidden">
-                        <i class="fa fa-map-marker fa-3x"></i>
-                    </div>
-                    <div class="subscribe-text mb-5">
-                        <h3 class="subscribe-h3"><span class="subscribe-span">Subscribe to</span> Our Newsletter</h3>
-                    </div>
-                    <div class="input-group mb-3">
-                        <input type="text" class="form-control" placeholder="Enter Email Address"
-                            aria-label="Recipient's username" aria-describedby="button-addon2">
-                        <div class="input-group-append">
-                            <button class="btn btn-outline-secondary" type="button"
-                                id="button-addon2">Subscribe</button>
-                        </div>
-                    </div>
-                    <div class="subscribe-hint">
-                        <p class="hint-p">We will never send you any Spam mail.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- Newsletter Section -->
-
-    <!-- Footer Section -->
-    <footer class="pt-5 pb-5" id="footer">
-        <div class="container">
-            <div class="row mb-5">
-                <div class="col-md-6">
-                    <div class="text-left">
-                        <div class="tbmsdc">
-                            <h1 class="mb-4"><span>i</span>Switch</h1>
-                            <h4 class="tbmsdc-h4">#1 Remote App for IOT Lovers</h4>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="text-right">
-                        <h4 class="tbasdc-h4">Download App Now !</h4>
-                        <div class="mt-4 buttons">
-                            <button class="btn google mr-3 btn-secondary"><i class="fa fa-play-circle-o fa-2x"></i>
-                                Google Play</button>
-                            <button class="btn ios btn-primary"><i class="fa fa-play-circle-o fa-2x"></i> IOS App
-                                Store</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
             <div class="row">
+                <div class="col-md-12">
+                    <div class="text-center">
+                        <h5 class="faq-h5">Frequently Asked Questions</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="row con-faq">
                 <div class="col-md-6">
-                    <div class="text-left">
-                        <div class="copyright">
-                            <h4 class="copyright-h4">All Rights Reserved by Project Create &copy;2020</h4>
+                    <div class="accordion" id="accordionExample">
+                        <div data-aos="fade-down" class="card">
+                            <div class="card-header" id="headingOne">
+                                <h2 class="mb-0">
+                                    <button class="btn btn-link" type="button" data-toggle="collapse"
+                                        data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                        What is i-Switch ?
+                                    </button>
+                                </h2>
+                            </div>
+
+                            <div id="collapseOne" class="collapse show" aria-labelledby="headingOne"
+                                data-parent="#accordionExample">
+                                <div class="card-body">
+                                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry
+                                    richardson heard of them accusamus labore sustainable VHS.
+                                </div>
+                            </div>
+                        </div>
+                        <div data-aos="fade-up" class="card">
+                            <div class="card-header" id="headingTwo">
+                                <h2 class="mb-0">
+                                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                                        data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                        Collapsible Group Item #2
+                                    </button>
+                                </h2>
+                            </div>
+                            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo"
+                                data-parent="#accordionExample">
+                                <div class="card-body">
+                                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry
+                                    richardson.
+                                </div>
+                            </div>
+                        </div>
+                        <div data-aos="fade-up" class="card">
+                            <div class="card-header" id="headingThree">
+                                <h2 class="mb-0">
+                                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                                        data-target="#collapseThree" aria-expanded="false"
+                                        aria-controls="collapseThree">
+                                        Collapsible Group Item #3
+                                    </button>
+                                </h2>
+                            </div>
+                            <div id="collapseThree" class="collapse" aria-labelledby="headingThree"
+                                data-parent="#accordionExample">
+                                <div class="card-body">
+                                    Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth
+                                    nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                                </div>
+                            </div>
+                        </div>
+                        <div data-aos="fade-down" class="card">
+                            <div class="card-header" id="headingFour">
+                                <h2 class="mb-0">
+                                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                                        data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                        Collapsible Group Item #3
+                                    </button>
+                                </h2>
+                            </div>
+                            <div id="collapseFour" class="collapse" aria-labelledby="headingFour"
+                                data-parent="#accordionExample">
+                                <div class="card-body">
+                                    Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth
+                                    nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                                </div>
+                            </div>
                         </div>
                     </div>
-
                 </div>
                 <div class="col-md-6">
+                    <img src="assets/img/faq.svg" class="img-fluid" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- FAQ -->
+
+    <!-- Contact -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="con-t-con text-center mb-4">
+                        <h5 class="ctc-h4">Contact</h5>
+                        <p class="ctc-p">Connect with us for more info</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-12">
+                <div class="text-center">
+                </div>
+            </div>
+            <div class="row my-5">
+                <div class="col-md-6">
+                    <img src="assets/img/contact.png" class="img-fluid" alt="">
+                </div>
+                <div class="col-md-6 col-12">
                     <div class="text-right">
-                        <div class="privacy-terms">
-                            <p>Privacy & Policy</p>
-                            <p>Terms & Condition</p>
+                        <!-- <h4 class="text-left cti-h4">Email Us</h4> -->
+                        <div class="form-holder">
+                            <form class="form" name="ConForm" action="" onsubmit="return ISWITCH()" method="post">
+                                <div class="form-row">
+                                    <div class="form-group col-md-12">
+                                        <input type="text" class="form-control" placeholder="Full Name" name="Name">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" class="form-control" placeholder="Company Name (Optional)"
+                                        name="Company">
+                                </div>
+                                <div class="form-group">
+                                    <textarea id="subject" class="form-control" placeholder="Message Us" name="Text"
+                                        style="max-height:150px; min-height: 120px;"></textarea>
+                                </div>
+                                <button type="submit" class="mt-2 form-btn">Submit <i class="fa fa-send"></i></button>
+                            </form>
                         </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </section>
+    <!-- Contact -->
+
+    <!-- Footer -->
+    <footer id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="row align-items-center justify-content-between">
+                        <img src="assets/img/logo.png" width="30" height="20" class="img-fluid footer-logo" alt="">
+                        <h4 class="text-white footer-text">Copyright &copy; Team IOT 2020</h4>
                     </div>
                 </div>
             </div>
         </div>
     </footer>
-    <!-- Footer Section -->
-
-
-
-
+    <!-- Footer -->
 
 
     <button onclick="upFunction()" id="scrollButton" title="Scroll Up">
@@ -594,22 +784,18 @@
 
 
 
+    <!-- SCRIPTS -->
 
-
-
-
-
-
-
-
-
-    <!-- jQuery -->
+    <!-- JQUERY -->
     <script src="assets/js/jquery.js"></script>
 
-    <!-- Bootstrap Js -->
-    <script src="assets/js/bootstrap.min.js"></script>
+    <!-- Custom Script -->
+    <script src="assets/js/script.js"></script>
 
-    <!-- AOS Js -->
+    <!-- Bootstrap Script -->
+    <script src="assets/js/bootstrap.js"></script>
+
+    <!-- AOS Script -->
     <script src="assets/js/aos.js"></script>
     <script>
         AOS.init({
@@ -618,26 +804,8 @@
         });
     </script>
 
-    <!-- Owl Js Links -->
-    <script src="assets/js/owl.carousel.min.js"></script>
-    <script src="assets/js/owl.js"></script>
-
-    <!-- Custom Js -->
-    <script src="assets/js/script.js"></script>
-
-    <!-- Counter Js Links -->
-    <script src="assets/js/jquery.counterup.min.js"></script>
-    <script src="assets/js/jquery.waypoints.min.js"></script>
-    <script>
-        jQuery(document).ready(function ($) {
-            $('.counter').counterUp({
-                delay: 10,
-                time: 5000
-            });
-        });
-    </script>
-
-
+    <!-- Swiper Script -->
+    <script src="assets/js/swiper.js"></script>
 </body>
 
 </html>
