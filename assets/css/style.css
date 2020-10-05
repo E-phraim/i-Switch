@@ -8,7 +8,7 @@ html{
     scroll-behavior: smooth;
 }
 #scrollButton{
-    padding: 13px;
+    padding: 10px;
     outline: none;
     color: white;
     background: rgb(252, 55, 55, .5);
